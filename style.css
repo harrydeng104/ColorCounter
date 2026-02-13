@@ -3,5 +3,7 @@ div {
     height: 10vw;
     font-size: 5vw;
     border-color: black;
-    flex-wrap: wrap;
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
 }
