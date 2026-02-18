@@ -1,9 +1,9 @@
 const boxes = document.getElementsByClassName("num");
 
-function erase(event) {
-    event.target.style.visibility = "hidden";
+function colorChange(event) {
+    event.target.style.backgroundColor = "lightgreen";
 }
 
 for (let i = 0; i < boxes.length; i++) {
-    boxes[i].addEventListener("click", erase);
+    boxes[i].addEventListener("click", colorChange);
 }
