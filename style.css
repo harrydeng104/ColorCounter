@@ -1,20 +1,16 @@
 .num {
     visibility: visible;
-}
-
-body {
-    display: flex;
-}
-
-button {
     width: 10vw;
     height: 10vw;
     font-size: 10vw;
     border-color: black;
-    /* flex-wrap: wrap; */
     text-align: center;
     outline-color: white;
     outline-width: 10px;
+}
+
+body {
+    display: flex;
 }
 
 #box1 {
