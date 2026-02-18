@@ -1,7 +1,7 @@
 const box = document.getElementsByClassName("num")
 
 function erase(event) {
-    event.target.style.display = "none"
+    event.target.style.visibility = "hidden"
 }
 
 box.addEventListener("click", erase);

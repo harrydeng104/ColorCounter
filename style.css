@@ -1,3 +1,7 @@
+.num {
+    visibility: visible;
+}
+
 body {
     display: flex;
 }
