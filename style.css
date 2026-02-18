@@ -1,10 +1,10 @@
 .num {
-    width: 5vw;
-    height: 5vw;
-    /* font-size: 8vw; */
+    width: 20vw;
+    height: 20vw;
+    font-size: 15vw;
     border-color: black;
     text-align: center;
-    background-color: orange;
+    background-color: white;
 }
 
 .num:hover {
