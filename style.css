@@ -5,7 +5,8 @@
     font-size: 10vw;
     border-color: black;
     text-align: center;
-    text-shadow: 1vw;
+    text-shadow: 1vw 0.1vw;
+    color: white;
 }
 
 .num:hover {
