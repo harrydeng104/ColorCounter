@@ -1,4 +1,4 @@
-const box = document.getElementsByTagName("button");
+const box = document.getElementsByClassName("num")
 
 function erase(event) {
     event.target.style.display = "none"
