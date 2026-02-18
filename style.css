@@ -9,6 +9,10 @@
     outline-width: 10px;
 }
 
+.num:hover {
+    border-color: white;
+}
+
 body {
     display: flex;
 }
