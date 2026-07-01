@@ -7,3 +7,8 @@ function colorChange(event) {
 for (let i = 0; i < boxes.length; i++) {
     boxes[i].addEventListener("click", colorChange);
 }
+
+function speak(text) {
+    const msg = new SpeechSynthesisUtterance(text);
+    window.speechSynthesis.speak(msg);
+}
